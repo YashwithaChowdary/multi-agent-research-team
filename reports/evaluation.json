@@ -1,0 +1,867 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "rows": [
+  {
+   "id": "q1_returns",
+   "type": "multi-hop",
+   "team": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 4,
+    "abstained": null,
+    "calls": 5,
+    "tokens": 3577,
+    "seconds": 5.3
+   },
+   "baseline": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 3,
+    "abstained": null,
+    "calls": 1,
+    "tokens": 1264,
+    "seconds": 1.5
+   },
+   "team_answer": {
+    "title": "Lumora Model Return Rate in 2025",
+    "sections": [
+     {
+      "heading": "Highest Return Rate and Cause",
+      "sentences": [
+       {
+        "text": "The Lumora Trail recorded the highest return rate among Lumora models in 2025 at 4.8%.",
+        "note_ids": [
+         "N1",
+         "N2",
+         "N3"
+        ]
+       },
+       {
+        "text": "Water entering the rear hub motor was responsible for 61% of the returns for the Trail model.",
+        "note_ids": [
+         "N4"
+        ]
+       },
+       {
+        "text": "In August 2024, Lumora changed the supplier of the motor shaft seal from Kavach Seals to RubberTech to cut costs.",
+        "note_ids": [
+         "N5"
+        ]
+       },
+       {
+        "text": "The replacement RubberTech seal failed to maintain the IP67 rating during pressure washing, performing closer to an IP54 rating.",
+        "note_ids": [
+         "N6"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": []
+   },
+   "baseline_answer": {
+    "title": "Lumora Model Return Rate and Causes",
+    "sections": [
+     {
+      "heading": "Highest Return Rate and Cause",
+      "sentences": [
+       {
+        "text": "The Lumora Trail had the highest return rate at 4.8% in 2025.",
+        "note_ids": [
+         "P1"
+        ]
+       },
+       {
+        "text": "The returns were primarily caused by water getting into the rear hub motor, which accounted for 61% of Trail returns.",
+        "note_ids": [
+         "P1"
+        ]
+       },
+       {
+        "text": "This water ingress happened because Lumora changed the supplier of the motor shaft seal from Kavach Seals to RubberTech in August 2024 to cut costs, resulting in a seal that did not hold the IP67 rating under pressure washing.",
+        "note_ids": [
+         "P2"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": []
+   }
+  },
+  {
+   "id": "q2_revenue",
+   "type": "conflict",
+   "team": {
+    "fact_recall": 0.75,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 4,
+    "abstained": null,
+    "calls": 5,
+    "tokens": 3717,
+    "seconds": 4.1
+   },
+   "baseline": {
+    "fact_recall": 0.75,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 3,
+    "abstained": null,
+    "calls": 1,
+    "tokens": 1257,
+    "seconds": 1.2
+   },
+   "team_answer": {
+    "title": "Lumora FY2025 Revenue and Units Sold Research Brief",
+    "sections": [
+     {
+      "heading": "FY2025 Revenue and Units Sold",
+      "sentences": [
+       {
+        "text": "Lumora's FY2025 revenue was 412 crore rupees.",
+        "note_ids": [
+         "N1",
+         "N4"
+        ]
+       },
+       {
+        "text": "The units sold in FY2025 were initially 61,000, but the figure was later corrected and restated to 59,400.",
+        "note_ids": [
+         "N2",
+         "N3"
+        ]
+       },
+       {
+        "text": "This correction occurred because returned bikes are now subtracted.",
+        "note_ids": [
+         "N2",
+         "N3"
+        ]
+       },
+       {
+        "text": "The revenue figure of 412 crore rupees remained unchanged during the correction.",
+        "note_ids": [
+         "N1",
+         "N4"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": []
+   },
+   "baseline_answer": {
+    "title": "Lumora FY2025 Revenue and Units Sold",
+    "sections": [
+     {
+      "heading": "FY2025 Financial and Sales Figures",
+      "sentences": [
+       {
+        "text": "Revenue for FY2025 was initially reported and remained unchanged at 412 crore rupees.",
+        "note_ids": [
+         "P1",
+         "P2"
+        ]
+       },
+       {
+        "text": "Lumora originally reported selling 61,000 bikes in FY2025.",
+        "note_ids": [
+         "P2"
+        ]
+       },
+       {
+        "text": "The units sold figure for FY2025 was later restated to 59,400 because returned bikes are now subtracted.",
+        "note_ids": [
+         "P1"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": []
+   }
+  },
+  {
+   "id": "q3_service",
+   "type": "multi-hop",
+   "team": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 6,
+    "abstained": null,
+    "calls": 7,
+    "tokens": 6697,
+    "seconds": 14.7
+   },
+   "baseline": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 7,
+    "abstained": null,
+    "calls": 1,
+    "tokens": 1660,
+    "seconds": 1.7
+   },
+   "team_answer": {
+    "title": "Customer Dissatisfaction and Lumora's Service Improvements",
+    "sections": [
+     {
+      "heading": "Customer Complaints",
+      "sentences": [
+       {
+        "text": "Customers are dissatisfied with long repair wait times that average 9 days, app connectivity issues like Bluetooth disconnections mostly affecting the City model, and the high price of spare batteries.",
+        "note_ids": [
+         "N1",
+         "N2",
+         "N3"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "Lumora's Response and Service Improvement Plan",
+      "sentences": [
+       {
+        "text": "Lumora set a target to reduce average repair wait times from 9 days to 3 days by March 2027.",
+        "note_ids": [
+         "N4"
+        ]
+       },
+       {
+        "text": "The company is expanding its physical footprint by increasing its service centre network from 38 to 60 locations by March 2027, focusing primarily on Tier 2 cities.",
+        "note_ids": [
+         "N5"
+        ]
+       },
+       {
+        "text": "Lumora plans to increase staffing by hiring 120 individuals in 2026, allocating 80 of those new roles specifically for service technicians.",
+        "note_ids": [
+         "N6"
+        ]
+       },
+       {
+        "text": "To better support Cargo business customers, Lumora is introducing a mobile repair van service located in Pune and Bengaluru.",
+        "note_ids": [
+         "N7"
+        ]
+       },
+       {
+        "text": "Additionally, spare motors will now be stocked directly at every service centre so that motor replacements do not experience delays waiting for parts from the Chakan plant.",
+        "note_ids": [
+         "N8"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": []
+   },
+   "baseline_answer": {
+    "title": "Customer Service and Unhappiness at Lumora",
+    "sections": [
+     {
+      "heading": "Customer Service Issues",
+      "sentences": [
+       {
+        "text": "Customers are unhappy with service wait times, with the average wait for a repair being 9 days.",
+        "note_ids": [
+         "P5"
+        ]
+       },
+       {
+        "text": "Other top complaints include app connectivity issues such as Bluetooth disconnections mostly on the City model, and the price of spare batteries.",
+        "note_ids": [
+         "P5"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "Lumora's Service Improvements",
+      "sentences": [
+       {
+        "text": "Lumora aims to cut the average repair wait time from 9 days to 3 days by March 2027 through a service improvement plan.",
+        "note_ids": [
+         "P1"
+        ]
+       },
+       {
+        "text": "The company is growing its network from 38 to 60 service centres by March 2027, with most new centres located in Tier 2 cities.",
+        "note_ids": [
+         "P1"
+        ]
+       },
+       {
+        "text": "Lumora is hiring 120 people in 2026, of whom 80 will be service technicians.",
+        "note_ids": [
+         "P1"
+        ]
+       },
+       {
+        "text": "A mobile repair van service is being launched in Pune and Bengaluru for Cargo business customers.",
+        "note_ids": [
+         "P1"
+        ]
+       },
+       {
+        "text": "Spare motors are being stocked at every centre so that motor swaps no longer have to wait for parts from Chakan.",
+        "note_ids": [
+         "P1"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": []
+   }
+  },
+  {
+   "id": "q4_models",
+   "type": "comparison",
+   "team": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 4,
+    "abstained": null,
+    "calls": 8,
+    "tokens": 7912,
+    "seconds": 8.3
+   },
+   "baseline": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 3,
+    "abstained": null,
+    "calls": 1,
+    "tokens": 929,
+    "seconds": 1.4
+   },
+   "team_answer": {
+    "title": "Comparison of Range and Price for Lumora's Three Models",
+    "sections": [
+     {
+      "heading": "Lumora City",
+      "sentences": [
+       {
+        "text": "Lumora offers a commuter bike named the Lumora City, which has a driving range of 70 km and is priced at 89,000 rupees.",
+        "note_ids": [
+         "N1",
+         "N2",
+         "N6"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "Lumora Trail",
+      "sentences": [
+       {
+        "text": "The mountain e-bike model, called the Lumora Trail, provides a driving range of 95 km and a price of 1,45,000 rupees.",
+        "note_ids": [
+         "N1",
+         "N3",
+         "N7"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "Lumora Cargo",
+      "sentences": [
+       {
+        "text": "The utility bike model is the Lumora Cargo, which delivers a driving range of 110 km and costs 1,99,000 rupees.",
+        "note_ids": [
+         "N1",
+         "N4",
+         "N8"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "Range Test Conditions",
+      "sentences": [
+       {
+        "text": "Range figures are measured at 25 km/h with a 75 kg rider on flat roads, using the middle assist level.",
+        "note_ids": [
+         "N5"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": []
+   },
+   "baseline_answer": {
+    "title": "Comparison of Lumora's Three Models: Range and Price",
+    "sections": [
+     {
+      "heading": "Lumora City",
+      "sentences": [
+       {
+        "text": "The Lumora City has a range of 70 km and a price of 89,000 rupees.",
+        "note_ids": [
+         "P2"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "Lumora Trail",
+      "sentences": [
+       {
+        "text": "The Lumora Trail has a range of 95 km and a price of 1,45,000 rupees.",
+        "note_ids": [
+         "P2"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "Lumora Cargo",
+      "sentences": [
+       {
+        "text": "The Lumora Cargo has a range of 110 km and a price of 1,99,000 rupees.",
+        "note_ids": [
+         "P2"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": []
+   }
+  },
+  {
+   "id": "q5_cells",
+   "type": "single",
+   "team": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 3,
+    "abstained": null,
+    "calls": 5,
+    "tokens": 3062,
+    "seconds": 5.3
+   },
+   "baseline": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 3,
+    "abstained": null,
+    "calls": 1,
+    "tokens": 1417,
+    "seconds": 1.4
+   },
+   "team_answer": {
+    "title": "Lumora Battery Cell Dependency and Plan",
+    "sections": [
+     {
+      "heading": "Dependency and Plan",
+      "sentences": [
+       {
+        "text": "Lumora imports a minority portion of its lithium-ion battery cells, specifically 30%, from South Korea.",
+        "note_ids": [
+         "N1"
+        ]
+       },
+       {
+        "text": "These imports expose Lumora to currency changes and shipping delays, noting that a two-month shipping delay in 2024 stopped Trail production for three weeks.",
+        "note_ids": [
+         "N2"
+        ]
+       },
+       {
+        "text": "To reduce its reliance on foreign battery cells, Lumora plans to source 90% of cells within India by the year 2027, mainly by expanding the contract with Arka Cells.",
+        "note_ids": [
+         "N3"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": []
+   },
+   "baseline_answer": {
+    "title": "Lumora Battery Cell Dependency and Plan",
+    "sections": [
+     {
+      "heading": "Dependency and Plan",
+      "sentences": [
+       {
+        "text": "Lumora imports 30% of its lithium-ion battery cells from South Korea, while the remaining 70% are supplied by Arka Cells in Chennai.",
+        "note_ids": [
+         "P1"
+        ]
+       },
+       {
+        "text": "Imports expose Lumora to currency changes and shipping delays, such as a two-month shipping delay in 2024 that stopped Trail production for three weeks.",
+        "note_ids": [
+         "P1"
+        ]
+       },
+       {
+        "text": "The company plans to source 90% of its cells within India by 2027, primarily by expanding its contract with Arka Cells.",
+        "note_ids": [
+         "P1"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": []
+   }
+  },
+  {
+   "id": "q6_cargo",
+   "type": "multi-hop",
+   "team": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 0.6666666666666666,
+    "sentences": 3,
+    "abstained": null,
+    "calls": 7,
+    "tokens": 4821,
+    "seconds": 7.1
+   },
+   "baseline": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 0.75,
+    "sentences": 4,
+    "abstained": null,
+    "calls": 1,
+    "tokens": 1563,
+    "seconds": 1.2
+   },
+   "team_answer": {
+    "title": "Lumora Cargo Buyers and Revenue Importance",
+    "sections": [
+     {
+      "heading": "Buyers and Revenue Importance",
+      "sentences": [
+       {
+        "text": "Small businesses such as grocery delivery, couriers, and caterers make up the majority of Lumora Cargo purchasers at 64%.",
+        "note_ids": [
+         "N1"
+        ]
+       },
+       {
+        "text": "The Lumora Cargo provides 21% of revenue in Q2 FY2026, which is ahead of plan.",
+        "note_ids": [
+         "N2"
+        ]
+       },
+       {
+        "text": "It contributed very little to FY2025 revenue because it was launched near the end of the fiscal year in March 2025.",
+        "note_ids": [
+         "N3"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": [
+     "Specific demographic details of individual buyers of the Lumora Cargo.",
+     "Geographic distribution of Lumora Cargo buyers beyond general small business categories."
+    ]
+   },
+   "baseline_answer": {
+    "title": "Buyers and Revenue Importance of Lumora Cargo",
+    "sections": [
+     {
+      "heading": "Buyers of Lumora Cargo",
+      "sentences": [
+       {
+        "text": "64% of Cargo buyers are small businesses such as grocery delivery, couriers and caterers.",
+        "note_ids": [
+         "P6"
+        ]
+       },
+       {
+        "text": "Additionally, international plans include leasing 400 Cargo bikes to delivery businesses in Utrecht, Netherlands.",
+        "note_ids": [
+         "P1"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "Importance to Revenue",
+      "sentences": [
+       {
+        "text": "The Lumora Cargo now provides 21% of revenue, which is ahead of plan.",
+        "note_ids": [
+         "P1"
+        ]
+       },
+       {
+        "text": "When it was launched in March 2025, it contributed very little to FY2025 revenue.",
+        "note_ids": [
+         "P2"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": []
+   }
+  },
+  {
+   "id": "q7_trail_cost",
+   "type": "single",
+   "team": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 4,
+    "abstained": null,
+    "calls": 5,
+    "tokens": 3418,
+    "seconds": 4.2
+   },
+   "baseline": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 2,
+    "abstained": null,
+    "calls": 1,
+    "tokens": 1418,
+    "seconds": 1.2
+   },
+   "team_answer": {
+    "title": "Trail Hub Motor Problem Cost and Fix",
+    "sections": [
+     {
+      "heading": "Cost and Resolution",
+      "sentences": [
+       {
+        "text": "Warranty repairs and replacements for the Trail rear hub motor water ingress issue totaled 6.2 crore rupees.",
+        "note_ids": [
+         "N1"
+        ]
+       },
+       {
+        "text": "Lumora resolved the motor issue by switching back to the original supplier, Kavach Seals, in February 2025.",
+        "note_ids": [
+         "N2"
+        ]
+       },
+       {
+        "text": "Quality control was enhanced at the Chakan plant by adding a pressure-wash test for every 50th motor.",
+        "note_ids": [
+         "N2",
+         "N3"
+        ]
+       },
+       {
+        "text": "Affected owners were offered a free seal replacement.",
+        "note_ids": [
+         "N4"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": [
+     "Are there any other associated costs beyond warranty repairs and replacements, such as shipping or brand damage costs?"
+    ]
+   },
+   "baseline_answer": {
+    "title": "Trail Hub Motor Problem Cost and Fix",
+    "sections": [
+     {
+      "heading": "Cost and Fix",
+      "sentences": [
+       {
+        "text": "Warranty repairs and replacements for the Trail hub motor water ingress cost 6.2 crore rupees.",
+        "note_ids": [
+         "P1"
+        ]
+       },
+       {
+        "text": "The problem was fixed by switching back to Kavach Seals in February 2025, adding a pressure-wash test for every 50th motor at the Chakan plant, and offering affected owners a free seal replacement.",
+        "note_ids": [
+         "P1",
+         "P4"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": []
+   }
+  },
+  {
+   "id": "q8_europe",
+   "type": "single",
+   "team": {
+    "fact_recall": 1.0,
+    "cited": 1.0,
+    "supported": 1.0,
+    "sentences": 3,
+    "abstained": null,
+    "calls": 5,
+    "tokens": 3280,
+    "seconds": 4.7
+   },
+   "baseline": {
+    "fact_recall": 0.0,
+    "cited": null,
+    "supported": null,
+    "sentences": 0,
+    "abstained": null,
+    "calls": 1,
+    "tokens": 509,
+    "seconds": 0.8
+   },
+   "team_answer": {
+    "title": "Lumora's International Expansion Plans",
+    "sections": [
+     {
+      "heading": "International Pilot",
+      "sentences": [
+       {
+        "text": "Lumora is launching an international pilot in the Netherlands, starting with Utrecht in September 2026.",
+        "note_ids": [
+         "N1"
+        ]
+       },
+       {
+        "text": "This initial international pilot will involve leasing 400 Cargo bikes to local delivery businesses.",
+        "note_ids": [
+         "N2"
+        ]
+       },
+       {
+        "text": "Lumora has no plans to expand to any other countries prior to 2027.",
+        "note_ids": [
+         "N3"
+        ]
+       }
+      ]
+     }
+    ],
+    "unanswered": [
+     "Specific international expansion plans beyond the 2026 pilot in Utrecht, the Netherlands, and the period prior to 2027 are not provided.",
+     "The provided sources do not contain any information regarding which global markets Lumora is targeting for growth."
+    ]
+   },
+   "baseline_answer": {
+    "title": "Lumora's Expansion Plans",
+    "sections": [],
+    "unanswered": [
+     "What are Lumora's plans for expanding outside India?"
+    ]
+   }
+  },
+  {
+   "id": "q9_share",
+   "type": "unanswerable",
+   "team": {
+    "fact_recall": null,
+    "cited": null,
+    "supported": null,
+    "sentences": 0,
+    "abstained": true,
+    "calls": 7,
+    "tokens": 2503,
+    "seconds": 37.2
+   },
+   "baseline": {
+    "fact_recall": null,
+    "cited": null,
+    "supported": null,
+    "sentences": 0,
+    "abstained": true,
+    "calls": 1,
+    "tokens": 388,
+    "seconds": 0.9
+   },
+   "team_answer": {
+    "title": "Lumora's Market Share in the Indian E-Bike Market",
+    "sections": [],
+    "unanswered": [
+     "Lumora's market share in the Indian e-bike market"
+    ]
+   },
+   "baseline_answer": {
+    "title": "Lumora Market Share",
+    "sections": [],
+    "unanswered": [
+     "What is Lumora's market share in the Indian e-bike market?"
+    ]
+   }
+  },
+  {
+   "id": "q10_ceo_salary",
+   "type": "unanswerable",
+   "team": {
+    "fact_recall": null,
+    "cited": null,
+    "supported": null,
+    "sentences": 0,
+    "abstained": true,
+    "calls": 7,
+    "tokens": 2819,
+    "seconds": 5.4
+   },
+   "baseline": {
+    "fact_recall": null,
+    "cited": null,
+    "supported": null,
+    "sentences": 0,
+    "abstained": true,
+    "calls": 1,
+    "tokens": 349,
+    "seconds": 0.8
+   },
+   "team_answer": {
+    "title": "Lumora CEO Compensation Research Brief",
+    "sections": [],
+    "unanswered": [
+     "How much is Lumora's CEO paid?"
+    ]
+   },
+   "baseline_answer": {
+    "title": "Lumora's CEO Compensation",
+    "sections": [],
+    "unanswered": [
+     "How much is Lumora's CEO paid?"
+    ]
+   }
+  }
+ ],
+ "summary": {
+  "team": {
+   "fact_recall": 0.969,
+   "cited": 1.0,
+   "supported": 0.958,
+   "calls": 6.1,
+   "tokens": 4180.6,
+   "seconds": 9.63,
+   "abstained": "2/2"
+  },
+  "baseline": {
+   "fact_recall": 0.844,
+   "cited": 1.0,
+   "supported": 0.964,
+   "calls": 1.0,
+   "tokens": 1075.4,
+   "seconds": 1.21,
+   "abstained": "2/2"
+  }
+ }
+}

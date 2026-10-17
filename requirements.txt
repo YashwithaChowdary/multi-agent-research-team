@@ -1,0 +1,8 @@
+google-genai>=2.0
+anthropic>=0.40
+ddgs>=9.0
+beautifulsoup4>=4.12
+httpx>=0.27
+streamlit>=1.40
+pypdf>=4.0
+pytest>=8.0

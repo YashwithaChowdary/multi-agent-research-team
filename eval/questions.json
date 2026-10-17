@@ -1,0 +1,25 @@
+{
+  "_note": "Expected facts were written from the corpus by hand. Each fact is a list of accepted spellings; a fact counts if any spelling appears in the report. 'answerable': false means the corpus does not contain the answer and the right behaviour is to say so.",
+  "questions": [
+    {"id": "q1_returns", "type": "multi-hop", "question": "Which Lumora model had the highest return rate in 2025, and what caused it?",
+     "facts": [["trail"], ["4.8%", "4.8 %"], ["water", "ingress"], ["seal"], ["rubbertech", "supplier"]], "answerable": true},
+    {"id": "q2_revenue", "type": "conflict", "question": "How did Lumora's FY2025 revenue and units sold turn out, and were any figures later corrected?",
+     "facts": [["412"], ["38%"], ["61000", "61,000"], ["59400", "59,400"]], "answerable": true},
+    {"id": "q3_service", "type": "multi-hop", "question": "Why are customers unhappy with service, and what is Lumora doing about it?",
+     "facts": [["9 days", "nine days"], ["60"], ["3 days", "three days"], ["120"]], "answerable": true},
+    {"id": "q4_models", "type": "comparison", "question": "Compare the range and price of Lumora's three models.",
+     "facts": [["70 km"], ["95 km"], ["110 km"], ["89000", "89,000"], ["145000", "1,45,000", "1.45 lakh"], ["199000", "1,99,000", "1.99 lakh"]], "answerable": true},
+    {"id": "q5_cells", "type": "single", "question": "How dependent is Lumora on imported battery cells, and what is the plan?",
+     "facts": [["30%"], ["korea"], ["90%"], ["2027"], ["arka"]], "answerable": true},
+    {"id": "q6_cargo", "type": "multi-hop", "question": "Who buys the Lumora Cargo and how important is it to revenue?",
+     "facts": [["small business"], ["64%"], ["21%"]], "answerable": true},
+    {"id": "q7_trail_cost", "type": "single", "question": "How much did the Trail hub motor problem cost and how was it fixed?",
+     "facts": [["6.2"], ["kavach"], ["february 2025", "feb 2025"], ["pressure-wash", "pressure wash"]], "answerable": true},
+    {"id": "q8_europe", "type": "single", "question": "What are Lumora's plans for expanding outside India?",
+     "facts": [["netherlands"], ["utrecht"], ["september 2026", "sept 2026"], ["400"]], "answerable": true},
+    {"id": "q9_share", "type": "unanswerable", "question": "What is Lumora's market share in the Indian e-bike market?",
+     "facts": [], "answerable": false},
+    {"id": "q10_ceo_salary", "type": "unanswerable", "question": "How much is Lumora's CEO paid?",
+     "facts": [], "answerable": false}
+  ]
+}
